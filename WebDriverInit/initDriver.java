@@ -25,7 +25,7 @@ public class initDriver {
 //        driver = new ChromeDriver();
 //        return driver;
 
-        switch (DRIVER_PATH) {
+        switch (DRIVER_NAME) {
             case "CH ": {
                 WebDriverManager.chromedriver().setup();
                 driver = new FirefoxDriver();
